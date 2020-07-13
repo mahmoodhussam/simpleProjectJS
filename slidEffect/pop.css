@@ -1,0 +1,32 @@
+.pop{
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100vh;
+	width:100%;
+	display: none;
+}
+.pop-text{
+	background-color: #fff;
+	width: 70%;
+	padding: 2rem;
+	position: absolute;
+	text-align: center;
+	top:30%;
+	left: 10%;
+	border-radius: 1rem;
+	position: relative;
+	animation: 1s pop;
+}
+
+@keyframes pop{
+  0%   {top:-100px; }
+  100% {top:30%;}
+}
+.X{
+	position: absolute;
+	right:0.3rem;
+	top: -0.8rem;
+	font-size: 3rem;
+	user-select: none;
+}
